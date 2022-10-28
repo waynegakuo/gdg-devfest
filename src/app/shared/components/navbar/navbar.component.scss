@@ -1,0 +1,33 @@
+button.mat-menu-item:focus {
+  outline: none;
+}
+
+.mat-menu-item .mat-icon {
+  color: #e51419;
+  font-size: 2em;
+}
+
+nav {
+  background-color: white;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+
+  .navigation-links {
+    font-size: 20px;
+  }
+
+  .burger {
+    display: none;
+  }
+  .burger:focus {
+    outline: none;
+  }
+}
+
+/* responsiveness */
+@media (max-width: 480px) {
+  nav {
+    .burger {
+      display: block;
+    }
+  }
+}
